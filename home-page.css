@@ -23,9 +23,9 @@ body {
 
 	font-family: caliobri;
 	background-color: #afafaf;
-	margin: 0;
-	max-width: 1200px;
-	margin: auto;
+/* 	margin: 0; */
+/* 	max-width: 1200px; */
+/* 	margin: auto; */
 }
 
 /*main navigational button*/
@@ -239,7 +239,7 @@ h4 {
 	text-align: center;
 	/*border: 1px solid black;*/
 	height: auto;
-	width: 900px;
+/* 	width: 900px; */
 	padding: 1rem 2rem;
 	display: flex;
 }
