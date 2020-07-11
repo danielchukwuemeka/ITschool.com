@@ -108,7 +108,7 @@ h1 ul {
 }
 
 h1 ul li {
-	flex-flow:  column-reverse nowrap;	
+	flex-flow:  column-reverse wrap;	
 }
 
 /*heading two*/
@@ -250,7 +250,7 @@ h4 {
 
 
 #mac-book li{
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: space-around;
 	display: inline;
 }
