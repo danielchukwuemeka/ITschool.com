@@ -1,0 +1,291 @@
+html{
+	box-sizing: border-box;
+	font-size: 10px;
+
+}
+/*my font*/
+@font-face {
+	font-family: genghiskhan ;
+	src: url(../fonts/Genghiskhan.otf);
+}
+
+*,*::before,*::after {
+	box-sizing: inherit;
+	font-size: 10px;
+}
+
+#page {
+	background-color: #fdffe5;
+}
+
+/*BODY OF MY WORK*/
+body {
+
+	font-family: caliobri;
+	background-color: #afafaf;
+	margin: 0;
+	max-width: 1200px;
+	margin: auto;
+}
+
+/*main navigational button*/
+#main-nav {
+	display:inline-block;
+	text-align: center;
+	margin: 0px;
+	padding-left: 0px;
+	word-spacing: 2.5rem;
+	background-color: rgba(00,255,00,20);
+	width: 100%;
+	height:4rem;
+	padding-top: 1rem;
+}
+
+#main-navigation {
+	text-align: center;
+}
+
+#main-nav li {
+	display: inline-block;
+}
+
+#main-nav li a {
+	font-size: 2rem;
+	color: 	#000;
+	text-decoration: none;
+}
+
+#main-nav li a:hover {
+	color: #00f;
+	text-decoration: underline;
+}
+
+ #main-nav li ul {
+ 	display: none;
+	position: relative;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#main-nav li:hover .navigation_outline{
+	position: absolute;
+	display: block;
+	background-color:#dedede;
+}
+
+#main-nav li:hover .navigation_outline li {
+	display: block;
+	text-align: left;
+	margin: 0px 0rem; 
+	margin-left: 0px;
+	word-spacing: 0.3rem;
+	padding: 1rem 1rem;
+	width: 15rem;
+}
+
+#main_nav li:hover .navigation_outline li:hover {
+	list-style-type: none;
+	background-color: blue;
+	display: block;
+}
+
+.navigation_outline li:hover{
+	padding: 2rem;
+	background-color:#aaaaaa;
+}
+
+/*headings*/
+h1 {
+	text-align: center;
+	margin-top: 0rem;	
+	letter-spacing: 0.3rem
+}
+h1 ul {
+	display: flexbox;
+	list-style-type: none;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+
+h1 ul li {
+	flex-flow:  column-reverse nowrap;	
+}
+
+/*heading two*/
+h2 {
+	text-align: center;
+	font-size: 12rem;
+	color: black;
+}
+
+/*heading three*/
+h3 {
+	text-align: center;
+	font-size: 3rem;
+	color: #dedede;
+	font-weight: bolder;
+}
+
+h2,h3 {
+	margin: 0px 0px;
+	font-family: genghiskhan,cambria,calibri;
+	word-spacing: 1rem;
+	letter-spacing: 0.8rem;
+}
+
+/*body headings*/
+#body-headings {
+	background-color: #dedede;
+	background-image: url(../images/sky-scrapper.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 80rem;
+	padding-top: 30rem;
+}
+main .write-up{
+	padding: 0.8rem 2rem;
+	font-size: 1.8rem;
+	text-indent: 2rem;
+}
+
+/*lower options */
+#lower-options ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding-left: 0px;
+}
+
+#lower-options ul li {
+	/*display: inline-block;*/
+	text-align: center;
+}
+
+#lower-options figure {
+	margin: 0px 0.5rem;
+}
+
+#lower-options figure figcaption p {
+	width: 28rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/*login form*/
+
+
+#login-form .label,#login-form .input,#note{
+	display: block;
+	margin-left: 5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.7rem;
+
+}
+
+#login-form #log-in {
+	font-size: 2rem;
+	font-family: caliobri,cambria,calibri;
+	font-weight: bolder;
+}
+
+#sign-up,#log-in{
+	margin-left: 5rem;
+	height: 3.5rem;
+	width: 8rem;
+	background-color: #eaeaea;
+	text-align: center;
+	padding-top: 0.3rem;
+	border: 2px solid green;
+}
+
+#sign-up {
+	color: black;
+	font-size: 2rem;
+	font-weight: bolder;	
+	text-decoration: none;
+	padding-top: 0.3rem;
+	height: 3.5rem;
+	width: 10rem;
+	margin-left: 2rem	;
+	font-family: caliobri,cambria,calibri;
+	margin-left: 5rem; 
+}
+
+#sign-up a {
+	text-decoration: none;
+	color: black;
+	font-size: 2rem;
+} 
+/*advert */
+h4 {
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 5rem;
+	font-size: 3rem;
+}
+
+
+#mac-book ul{
+	margin-top: 1rem !important;
+	margin-bottom: 5rem !important;
+	margin: auto;
+	text-align: center;
+	/*border: 1px solid black;*/
+	height: auto;
+	width: 900px;
+	padding: 1rem 2rem;
+	display: flex;
+}
+
+#mac-book a #discount {
+	margin-bottom: 0px;
+}
+
+
+#mac-book li{
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	display: inline;
+}
+#mac-book #christmass-offer {
+	font-size: 3rem;
+	color: red;
+	font-family: cambria,calibri,"times new roman";
+	margin:	1px;
+	font-weight: bolder;
+}
+
+#mac-book #discount{
+	font-family: cambria,calibri,"times new roman";
+	font-size: 1.5rem;
+	margin-bottom: 0px;
+}
+
+/*main footer*/
+#footer{
+	font-size: 1.5rem;
+	font-family: "times new roman",cambria,vedanna;
+	margin: 0rem;
+	background-color: #dfdfdf;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+}
+
+/*copyright-information*/
+#copyright-information p {
+	font-family: "times new romans,calibri,arial";
+	font-size: 1.5rem;
+	padding: 0rem 1rem;
+	margin: 0px;
+}
